@@ -41,11 +41,11 @@ class Product extends React.Component {
       });
     }
 
-    if (props.product.appConfig !== this.props.product.appConfig) {
-      this.setState({
-        ...this.props.product
-      });
-    }
+    // if (props.product.appConfig !== this.props.product.appConfig) {
+    //   this.setState({
+    //     ...this.props.product
+    //   });
+    // }
   }
 
   render(){
